@@ -1,0 +1,37 @@
+.page-enter-active, .page-leave-active {
+  transition: all .5s;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.page-enter, .page-leave-active {
+  opacity: 0.2;
+  transform: translate3d(-20%, 0, 0);
+}
+
+.aaa {
+  color: orchid;
+}
+.float-right {
+  float: right;
+}
+.text-white {
+  color: #fff;
+}
+.flex1 {
+  flex: 1;
+}
+.mh100 {
+  min-height: 100%;
+}
+.min-screen-height {
+  min-height: calc(100vh - 64px);
+}
+.screen-height {
+  height: calc(100vh - 64px);
+}
+.over-yauto {
+  overflow-y: auto;
+}
+.over-yscroll {
+  overflow-y: scroll;
+}
